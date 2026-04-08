@@ -1,0 +1,10 @@
+print("Informacion estudiante")
+nombre = input("Ingrese su nombre: ")
+apellido = input("Ingrese su apellido: ")
+seccion = input("Ingrese el código de la sección: ")
+sede = input("Ingrese la sede: ")
+
+print("\nIdentificación ")
+print(f"Estudiante: {nombre} {apellido}")
+print(f"Sección: {seccion}")
+print(f"Sede: {sede}")
